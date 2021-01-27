@@ -1,0 +1,101 @@
+h1,h2 , p , div ,span {
+  margin: 0;
+  padding: 0;
+}
+body{
+  padding: 20px;
+  height: 100%;
+  background-image: linear-gradient(to bottom, #0000ff, #001fd4, #0024a8, #00217b, #001b4e, #0b1538, #0e0e24, #05040f, #07020b, #060106, #040002, #000000);
+}
+
+
+.wrapper{
+  width: 40%;
+  background-color: black;
+  margin: 0 auto;
+  color: white;
+  
+  padding: 50px 100px;
+  border-radius: 20px;
+}
+
+.comment{
+  background-color: rgba(255, 255, 255, 0.171);
+  border-radius: 20px;
+  padding: 20px 30px;
+  margin-bottom: 20px;
+}
+
+.d-flex{
+  display: flex;
+  
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+
+  .input__block{
+    display: flex;
+    flex-direction: column;
+  }
+
+  textarea{
+    resize: none;
+  height: 100px;
+  }
+
+  input, textarea{
+    background-color: rgba(255, 255, 255, 0.171);
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    padding: 15px;
+    color: white;
+    margin-bottom: 15px;
+  }
+
+  button{
+    background-color: rgba(255, 255, 255, 0.644);
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    padding: 10px;
+    color: white;
+    width: 130px;
+    height: 50px;
+    margin-top: 10px;
+    margin-left: 15px;
+    cursor: pointer;
+  }
+  .block__circle{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  .circle{
+    background-color: white;
+    border-radius: 50px;
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+    color: black;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    cursor: pointer;
+    margin-right: 8px;
+  }
+
+  .prev{
+    margin: 0px 10px;
+    cursor: pointer;
+ 
+  }
+
+  .next{
+    cursor: pointer;
+  }
+
+  .flex{
+    display: flex;
+  }
